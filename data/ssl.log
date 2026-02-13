@@ -1,0 +1,87 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2021-09-23-14-23-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	cert_chain_fuids	client_cert_chain_fuids	subject	issuer	client_subject	client_issuer	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	vector[string]	vector[string]	string	string	string	string	string
+1599057228.338402	CgnCcKyQn6Fuvtaaa	10.8.0.117	33952	157.240.30.63	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	i.instagram.com	T	-	-	T	-	-	-	-	-	-	-
+1599057229.760056	CyaZhP168fSnjEW4i	10.8.0.117	33954	157.240.30.63	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	scontent-prg1-1.cdninstagram.com	T	-	-	T	-	-	-	-	-	-	-
+1599057229.785082	C1joeV1VXsHCLjiswg	10.8.0.117	33956	157.240.30.63	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	scontent-prg1-1.cdninstagram.com	T	-	-	T	-	-	-	-	-	-	-
+1599057229.816934	CplZRBVCFLcGq4Dbl	10.8.0.117	33958	157.240.30.63	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	scontent-prg1-1.cdninstagram.com	T	-	-	T	-	-	-	-	-	-	-
+1599057229.826136	C05gpYcCZjI5tZ4m5	10.8.0.117	33960	157.240.30.63	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	scontent-prg1-1.cdninstagram.com	T	-	-	T	-	-	-	-	-	-	-
+1599057229.866742	Cuq0XY1vpDGqUUfoQe	10.8.0.117	33962	157.240.30.63	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	graph.instagram.com	T	-	-	T	-	-	-	-	-	-	-
+1599057231.555999	CYaRbd1LgVHyMi0os7	10.8.0.117	58526	157.240.30.11	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	secp256r1	edge-mqtt.facebook.com	F	-	-	T	F11cB51wbjfFUg2Hqk,FmMSzw1GvTD6uTW1d9	(empty)	CN=*.facebook.com,O=Facebook\\, Inc.,L=Menlo Park,ST=California,C=US	CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US	-	-	ok
+1599057232.060348	ChLiFt1y8OfIFbEuz8	10.8.0.117	52296	157.240.30.18	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	graph.facebook.com	T	-	-	T	-	-	-	-	-	-	-
+1599057232.076116	ClrilA2BIAcAvtI6G6	10.8.0.117	48886	157.240.30.27	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	-	connect.facebook.net	T	-	h2	T	-	-	-	-	-	-	-
+1599057233.935840	Ck76jL1pxtD3ITyzL1	10.8.0.117	33970	157.240.30.63	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	scontent-prg1-1.cdninstagram.com	T	-	-	T	-	-	-	-	-	-	-
+1599057255.587376	CE2v1V1PiJwfenwq22	10.8.0.117	44670	157.240.30.34	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	secp256r1	mqtt-mini.facebook.com	F	-	-	T	FGkGth3S2vgqsSOeW9,FpI5qi1NT6HlRITfm4	(empty)	CN=*.facebook.com,O=Facebook\\, Inc.,L=Menlo Park,ST=California,C=US	CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US	-	-	ok
+1599057268.141705	CvADeV22K5TAlDh7c	10.8.0.117	48892	157.240.30.27	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	lookaside.facebook.com	T	-	-	T	-	-	-	-	-	-	-
+1599057268.190106	CFADjydqH5q29Weg9	10.8.0.117	48894	157.240.30.27	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	static.xx.fbcdn.net	T	-	-	T	-	-	-	-	-	-	-
+1599057268.204581	CoepxB3Chw2X4NTbie	10.8.0.117	48896	157.240.30.27	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	static.xx.fbcdn.net	T	-	-	T	-	-	-	-	-	-	-
+1599057268.335334	CUcwiV3pErZ9pLT30j	10.8.0.117	60978	157.240.30.35	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	www.facebook.com	T	-	-	T	-	-	-	-	-	-	-
+1599057299.071654	CUV2Ho4LyB1xW4Lmdc	10.8.0.117	52312	157.240.30.18	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	api.facebook.com	T	-	-	T	-	-	-	-	-	-	-
+1599057299.077209	CnCVN6i60NAbKmFxl	10.8.0.117	60690	69.171.250.20	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	secp256r1	edge-mqtt.facebook.com	F	-	-	T	FU4lIF474GDFf2hycj,FJ5MWa4hhj03qS6Oyk	(empty)	CN=*.facebook.com,O=Facebook\\, Inc.,L=Menlo Park,ST=California,C=US	CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US	-	-	ok
+1599057299.078598	CFG14Y2cv4djQJc9El	10.8.0.117	60982	157.240.30.35	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	b-api.facebook.com	T	-	-	T	-	-	-	-	-	-	-
+1599057299.083390	CYxppw1PYbB5N7vr6f	10.8.0.117	52316	157.240.30.18	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	graph.facebook.com	T	-	-	T	-	-	-	-	-	-	-
+1599057299.087467	CGxmNmRVRebBCc1x4	10.8.0.117	60986	157.240.30.35	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	b-graph.facebook.com	T	-	-	T	-	-	-	-	-	-	-
+1599057312.228888	CiSSFRmnfQowhaF1k	10.8.0.117	56228	104.244.42.194	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	api.twitter.com	T	-	h2	T	-	-	-	-	-	-	-
+1599057312.469471	CYeKR14UuvXf0CEi1i	10.8.0.117	46724	68.232.34.217	443	TLSv13	TLS_AES_256_GCM_SHA384	secp256r1	video.twimg.com	F	-	-	T	-	-	-	-	-	-	-
+1599057312.470715	CEpdHu2mjU9D0gHYP4	10.8.0.117	54194	192.229.233.50	443	TLSv13	TLS_AES_256_GCM_SHA384	secp256r1	pbs.twimg.com	F	-	-	T	-	-	-	-	-	-	-
+1599057314.659290	C2CHBz4ktEJeM70wTh	10.8.0.117	41088	35.201.69.248	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	na.glbtls.t.co	F	-	-	T	-	-	-	-	-	-	-
+1599057318.603696	CvT6A5i77lKpFvcuc	10.8.0.117	41090	35.201.69.248	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	na.glbtls.t.co	T	-	-	T	-	-	-	-	-	-	-
+1599057375.902642	CXVBUUhqkJEhiN2s6	10.8.0.117	56248	104.244.42.194	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	api.twitter.com	F	-	h2	T	F5l1zD2OWAgyw4g1Y1,F4RqjY3GRvfAVrtzm2	(empty)	CN=api.twitter.com,OU=fra2,O=Twitter\\, Inc.,L=San Francisco,ST=California,C=US	CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US	-	-	ok
+1599057377.677460	CjFTHUL7VeVKYe43k	10.8.0.117	37696	13.107.42.23	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	secp384r1	config.edge.skype.com	F	-	h2	T	FrXiZ5fKhKL2s7Yv3,FUhcZR3ZsK7ZRV24vc	(empty)	CN=edge.skype.com	CN=Microsoft IT TLS CA 4,OU=Microsoft IT,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US	-	-	ok
+1599057377.679624	CeqSajfZvDFq1FLYg	10.8.0.117	37698	13.107.42.23	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	secp384r1	config.edge.skype.com	F	-	h2	T	F2IcbHptnvcAcsfob,FT4Zae1XDfl4NrC6Gf	(empty)	CN=edge.skype.com	CN=Microsoft IT TLS CA 4,OU=Microsoft IT,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US	-	-	ok
+1599057375.903188	CZHtz64VhurJylQIGb	10.8.0.117	56246	104.244.42.194	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	api.twitter.com	F	-	h2	T	FQpYfl19rA6umwDOSi,FNHXx11svKn5OlDXBj	(empty)	CN=api.twitter.com,OU=fra2,O=Twitter\\, Inc.,L=San Francisco,ST=California,C=US	CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US	-	-	ok
+1599057379.408578	CmZHNWGB7ULDZ7L09	10.8.0.117	53964	34.102.215.127	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	global.glbtls.t.co	F	-	-	T	-	-	-	-	-	-	-
+1599057376.979666	CN4ss33DPs7SPD8mOj	10.8.0.117	44104	40.122.172.160	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	secp384r1	prod.registrar.skype.com	F	-	-	T	F4SBJJ15cqRXrv00sf,F7JEbeMYpkY4ejBS1	(empty)	CN=prod.registrar.skype.com	CN=Microsoft IT TLS CA 2,OU=Microsoft IT,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US	-	-	ok
+1599057377.083626	Ccba7z2DVI8MlqC2J9	10.8.0.117	52162	40.74.219.49	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	secp384r1	azscus1-client-s.gateway.messenger.live.com	F	-	-	T	FMfUcS3fSKYPdQOK2,FcgeTV1EBERFboDsQe	(empty)	CN=apis.skype.com	CN=Microsoft IT TLS CA 2,OU=Microsoft IT,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US	-	-	ok
+1599057377.160956	CW9YEc4evFc4vUwDde	10.8.0.117	52164	40.74.219.49	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	secp384r1	azscus1-client-s.gateway.messenger.live.com	F	-	-	T	FuYDgm3is2A70nZECe,Fd9BTW1p3KlhMgsHTb	(empty)	CN=apis.skype.com	CN=Microsoft IT TLS CA 2,OU=Microsoft IT,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US	-	-	ok
+1599057379.732752	C3b3rg4IcEo347m3qb	10.8.0.117	34504	40.114.211.99	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	x25519	consumer.entitlement.skype.com	F	-	h2	T	FjPlTC49TieltNBirc,F3eWUy4A2OgD2TZcL4	(empty)	CN=consumer.entitlement.skype.com	CN=Microsoft IT TLS CA 1,OU=Microsoft IT,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US	-	-	ok
+1599057379.681318	C2WyFN1hJikUyYAL49	10.8.0.117	52204	13.94.251.244	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	secp256r1	static.asm.skype.com	F	-	h2	T	FQQBj947bXH29Fr2yb,F5r4pa2nk08EClNVU5	(empty)	CN=static.asm.skype.com	CN=Microsoft IT TLS CA 2,OU=Microsoft IT,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US	-	-	ok
+1599057382.293299	C77jQPctsQeQqjvB2	10.8.0.117	46780	68.232.34.200	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	secp256r1	static-asm.secure.skypeassets.com	F	-	h2	T	FBxlDSI8mP89j2c3g,F0WLSn2bbbKaupsElk	(empty)	CN=*.vo.msecnd.net	CN=Microsoft IT TLS CA 2,OU=Microsoft IT,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US	-	-	ok
+1599057379.598783	CTYI4t4NuCD8D9ksBi	10.8.0.117	38670	104.244.42.195	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	probe.twitter.com	F	-	http/1.1	T	F4pxd41evm9A0a8LB2,FnJnTp2WOvmPN1wNJg	(empty)	CN=*.twitter.com,OU=fra2,O=Twitter\\, Inc.,L=San Francisco,ST=California,C=US	CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US	-	-	ok
+1599057380.951072	CW8itk47zjxsMLC8T	10.8.0.117	52182	40.74.219.49	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	secp384r1	azscus1-client-s.gateway.messenger.live.com	F	-	-	T	Fv3rAs1CFVfZ1iqVHd,FxqOoj2DmEbx2WnXGg	(empty)	CN=apis.skype.com	CN=Microsoft IT TLS CA 2,OU=Microsoft IT,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US	-	-	ok
+1599057380.951006	CJfoqi1itdmzrKl6Gd	10.8.0.117	52180	40.74.219.49	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	secp384r1	azscus1-client-s.gateway.messenger.live.com	F	-	-	T	FzmUjk381eDfG30YCj,F1Kjtr1iMYsHv2Slnl	(empty)	CN=apis.skype.com	CN=Microsoft IT TLS CA 2,OU=Microsoft IT,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US	-	-	ok
+1599057394.656318	CP0Z0k4bvqknorrxw1	10.8.0.117	48962	157.240.30.27	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	scontent.xx.fbcdn.net	T	-	-	T	-	-	-	-	-	-	-
+1599057394.725837	CJQexHK6EDeubpeKg	10.8.0.117	52376	157.240.30.18	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	graph.facebook.com	T	-	-	T	-	-	-	-	-	-	-
+1599057416.014367	CVNKev16aT2Whlmlg	10.8.0.117	48966	157.240.30.27	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	scontent-prg1-1.xx.fbcdn.net	T	-	-	T	-	-	-	-	-	-	-
+1599057435.494219	CmKQPy2E2AqKmpfOrd	10.8.0.117	54534	172.217.23.202	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	android.googleapis.com	T	-	-	T	-	-	-	-	-	-	-
+1599057435.650321	C4VQgYcUCSeBhrTwf	10.8.0.117	37410	172.217.23.234	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	lamssettings-pa.googleapis.com	F	-	-	T	-	-	-	-	-	-	-
+1599057454.026695	CF9VVu1vAvWE78HkF1	10.8.0.117	60754	69.171.250.20	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	edge-mqtt.facebook.com	T	-	-	T	-	-	-	-	-	-	-
+1599057461.372926	CFtHkp1OboAxZmreoi	10.8.0.117	60756	69.171.250.20	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	edge-mqtt.facebook.com	T	-	-	T	-	-	-	-	-	-	-
+1599057530.210280	CEVdaZ1J4gusOKXvRc	10.8.0.117	34058	157.240.30.63	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	i.instagram.com	T	-	-	T	-	-	-	-	-	-	-
+1599057530.942281	C7bvit4YLpboA02B71	10.8.0.117	34060	157.240.30.63	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	graph.instagram.com	T	-	-	T	-	-	-	-	-	-	-
+1599057532.294155	CizSET1Lj8XzlMpzD5	10.8.0.117	52488	216.58.201.110	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	x25519	android-safebrowsing.google.com	F	-	http/1.1	T	F6zU2EZJgsmdDUoug,FhSh5cyySZ0Z4rOXj	(empty)	CN=*.google.com,O=Google LLC,L=Mountain View,ST=California,C=US	CN=GTS CA 1O1,O=Google Trust Services,C=US	-	-	ok
+1599057532.878976	Cei99t36MqalrZDt81	10.8.0.117	53922	216.58.201.99	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	x25519	connectivitycheck.gstatic.com	F	-	http/1.1	T	FTcRFF2OE3SrlOIh5a,FFmu771GQ2iDslBVkb	(empty)	CN=*.gstatic.com,O=Google LLC,L=Mountain View,ST=California,C=US	CN=GTS CA 1O1,O=Google Trust Services,C=US	-	-	ok
+1599057532.977350	CnW2ag0jlD1R5761c	10.8.0.117	41650	216.58.201.106	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	x25519	infinitedata-pa.googleapis.com	F	-	h2	T	FGtHF92zM1KnEaAa99,FV4aG859AD0auf9b7	(empty)	CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US	CN=GTS CA 1O1,O=Google Trust Services,C=US	-	-	ok
+1599057533.765756	C4sGdL1uDrXYowov5l	10.8.0.117	37428	172.217.23.234	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	www.googleapis.com	T	-	-	T	-	-	-	-	-	-	-
+1599057562.900458	CyZHDt357HAmupBs1c	10.8.0.117	57544	172.217.23.206	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	android.clients.google.com	T	-	-	T	-	-	-	-	-	-	-
+1599057324.222757	C5O3iu2Keow2DmZewk	10.8.0.117	45728	69.195.179.128	443	-	-	-	api-24-0-0.twitter.com	F	-	-	F	-	-	-	-	-	-	-
+1599057319.006867	CPPaCw1yaCY5XPfzY7	10.8.0.117	46242	69.195.168.128	443	-	-	-	api-45-0-0.twitter.com	F	-	-	F	-	-	-	-	-	-	-
+1599057329.411791	Ci0guz1WzvpYNKrgr	10.8.0.117	43710	69.195.174.128	443	-	-	-	api-36-0-0.twitter.com	F	-	-	F	-	-	-	-	-	-	-
+1599057334.586023	CY7ks5rBgQy3Kzfmg	10.8.0.117	39604	209.237.194.128	443	-	-	-	api-3-0-0.twitter.com	F	-	-	F	-	-	-	-	-	-	-
+1599057650.359415	CsdYAm2EOAFybtCp6b	10.8.0.117	34076	157.240.30.63	443	unknown-64282	TLS_AES_128_GCM_SHA256	x25519	graph.instagram.com	T	-	-	T	-	-	-	-	-	-	-
+1599057678.428534	CE4MFJ1RAv9jD7j8f4	10.8.0.117	57736	74.125.71.188	5228	TLSv13	TLS_AES_128_GCM_SHA256	x25519	mtalk.google.com	T	-	-	T	-	-	-	-	-	-	-
+1599057379.483895	CsMdO13bzHM8aWrvA9	10.8.0.117	36738	20.44.78.251	443	-	-	-	in.appcenter.ms	F	-	-	F	-	-	-	-	-	-	-
+1599057380.951775	ClMierphk7pDs2oC	10.8.0.117	52184	40.74.219.49	443	-	-	-	azscus1-client-s.gateway.messenger.live.com	F	-	-	F	-	-	-	-	-	-	-
+1599057909.506174	C9tSxK3E9blgAvT9sj	10.8.0.117	44070	216.58.201.74	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	x25519	play.googleapis.com	F	-	http/1.1	T	FdA9a8V6lid6uVFBg,Fr3BQceRvrb3HSKQe	(empty)	CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US	CN=GTS CA 1O1,O=Google Trust Services,C=US	-	-	ok
+1599058879.481732	CKXsYh3y0qnu6IP8bg	10.8.0.117	56338	104.244.42.194	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	api.twitter.com	T	-	h2	T	-	-	-	-	-	-	-
+1599058879.649110	C4CGwj4LQYp5JlwjC7	10.8.0.117	54040	34.102.215.127	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	global.glbtls.t.co	T	-	-	T	-	-	-	-	-	-	-
+1599058879.820784	C02mhv37NfONtED6i9	10.8.0.117	38746	104.244.42.195	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	probe.twitter.com	T	-	http/1.1	T	-	-	-	-	-	-	-
+1599058880.011636	CIFzkhNunTauYKWZe	10.8.0.117	54044	34.102.215.127	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	global.glbtls.t.co	F	-	-	T	-	-	-	-	-	-	-
+1599058949.589756	Cu9dLO3d0GWeYBLavc	10.8.0.117	54052	34.102.215.127	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	global.glbtls.t.co	T	-	-	T	-	-	-	-	-	-	-
+1599059209.895778	CIHpC12dfDgsNlCXy5	10.8.0.117	40176	216.58.201.78	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	-	app-measurement.com	T	-	http/1.1	T	-	-	-	-	-	-	-
+1599059210.090876	ChwjLE3hGrc8M9TmMk	10.8.0.117	37498	172.217.23.234	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	play.googleapis.com	F	-	-	T	-	-	-	-	-	-	-
+1599059210.777585	Ccro1mS22D3jyUpff	10.8.0.117	37500	172.217.23.234	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	play.googleapis.com	F	-	-	T	-	-	-	-	-	-	-
+1599059589.403430	C3qGIs31FfFuJTCsJ5	10.8.0.117	55510	172.217.23.238	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	android.clients.google.com	T	-	-	T	-	-	-	-	-	-	-
+1599059589.477179	CpQlXd1LM3lzSZ1a18	10.8.0.117	44132	216.58.201.74	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	android.googleapis.com	T	-	-	T	-	-	-	-	-	-	-
+1599059619.493472	CECH941TaCi426ROp8	10.8.0.117	41732	216.58.201.106	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	people-pa.googleapis.com	F	-	-	T	-	-	-	-	-	-	-
+1599059636.091309	CoqeK14slRRWT3jSG3	10.8.0.117	41734	216.58.201.106	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	people-pa.googleapis.com	F	-	-	T	-	-	-	-	-	-	-
+1599060379.705397	Cmz3aX3s2GpoaPURW	10.8.0.117	54090	34.102.215.127	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	global.glbtls.t.co	T	-	-	T	-	-	-	-	-	-	-
+1599060379.895692	Ci1SH62mLUPecPJx5d	10.8.0.117	38796	104.244.42.195	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	probe.twitter.com	T	-	http/1.1	T	-	-	-	-	-	-	-
+1599060380.073469	CupYkjJ1BXaXaZk94	10.8.0.117	54094	34.102.215.127	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	global.glbtls.t.co	T	-	-	T	-	-	-	-	-	-	-
+1599060440.309697	CokYEW2q0cjgDIE5Gi	10.8.0.117	41360	104.244.42.66	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	api.twitter.com	T	-	h2	T	-	-	-	-	-	-	-
+#close	2021-09-23-14-23-29
