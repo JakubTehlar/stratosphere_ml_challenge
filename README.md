@@ -25,5 +25,5 @@ python3 -m pip install ipykernel
 python3 -m ipykernel install --user --name ml_chall --display-name 'Python (ML challenge)'
 
 # Install requirements
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
