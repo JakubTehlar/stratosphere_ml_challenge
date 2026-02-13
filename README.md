@@ -21,7 +21,6 @@ python3 -m venv .venv
 # Activate the environment
 source .venv/bin/activate
 
-python3 -m pip install -U pip
 python3 -m pip install ipykernel
 python3 -m ipykernel install --user --name ml_chall --display-name 'Python (ML challenge)'
 
