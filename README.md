@@ -1,6 +1,6 @@
 # stratosphere_ml_challenge
 
-#Objective
+# Objective
 - Provide Python scripts and/or a Python Jupyter notebook with the data analysis and a machine-learning model of the given network traffic dataset. 
 
 # Additional information
