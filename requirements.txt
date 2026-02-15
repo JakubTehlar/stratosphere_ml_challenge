@@ -3,3 +3,4 @@ zat
 numpy
 pandas
 scikit-learn
+seaborn
