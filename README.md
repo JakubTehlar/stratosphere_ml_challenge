@@ -1,6 +1,6 @@
 # stratosphere_ml_challenge
 
-#Objective
+# Objective
 - Provide Python scripts and/or a Python Jupyter notebook with the data analysis and a machine-learning model of the given network traffic dataset. 
 
 # Additional information
@@ -10,6 +10,9 @@
 - **Goal**: To develop a machine learning model that is trained and evaluated on this data and that can separate the malware traffic from the normal traffic.
 - The main idea behind this challenge is to evaluate your thought process through the different steps of creating a machine learning pipeline: goal setting, data analysis, data preprocessing, modeling, reporting, etc. It is not necessary that the final model has great performance, we are aware that the dataset is very small.
 
+# Repo organization
+- `/data/` folder contains the zeek logs provided for this challenge
+- `analysis.ipynb` contains the code for this research, including loading the logs, EDA and ML training and evaluation
 
 # Installation
 ```bash
@@ -21,10 +24,9 @@ python3 -m venv .venv
 # Activate the environment
 source .venv/bin/activate
 
-python3 -m pip install -U pip
 python3 -m pip install ipykernel
 python3 -m ipykernel install --user --name ml_chall --display-name 'Python (ML challenge)'
 
 # Install requirements
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
