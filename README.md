@@ -10,6 +10,9 @@
 - **Goal**: To develop a machine learning model that is trained and evaluated on this data and that can separate the malware traffic from the normal traffic.
 - The main idea behind this challenge is to evaluate your thought process through the different steps of creating a machine learning pipeline: goal setting, data analysis, data preprocessing, modeling, reporting, etc. It is not necessary that the final model has great performance, we are aware that the dataset is very small.
 
+# Repo organization
+- `/data/` folder contains the zeek logs provided for this challenge
+- `analysis.ipynb` contains the code for this research, including loading the logs, EDA and ML training and evaluation
 
 # Installation
 ```bash
